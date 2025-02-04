@@ -1,0 +1,40 @@
+.message-container{
+    display:flex;
+    margin: 10px 0;
+}
+
+.message-container.user{
+    
+    justify-content:flex-end;
+    text-align: right;
+}
+.message-container.user .message-box{
+    background-color: #f1f1f1;
+    color: black;
+    text-align: right;
+    border-radius: 10px 10px 0 10px;
+    padding: 10px;
+}
+.message-container.bot{
+  
+    justify-content:flex-start;
+    text-align: left;
+}
+.bot-icon {
+    margin-right: 10px; /* Adds space between icon and message */
+    display: flex;
+    align-items: center;
+  }
+.message-container.bot .message-box {
+    background-color: #f1f1f1;
+    color: black;
+    text-align: left;
+    border-radius: 10px 10px 10px 0;
+    padding: 10px;
+  }
+  .message-box {
+    padding: 10px;
+    max-width: 60%;
+    border-radius: 10px;
+    word-wrap: break-word;
+  }
